@@ -1,0 +1,111 @@
+Last login: Thu Jun 18 17:45:41 on ttys000
+[18:21:18] (master) parrot-ruby-vfa-2015
+// ♥ ls
+LICENSE.md	README.md	parrot.rb	spec
+[18:21:20] (master) parrot-ruby-vfa-2015
+// ♥ cd ..
+[18:21:24] (master) labs
+// ♥ cd ..
+[18:21:27] Development
+// ♥ ls
+code		labs		related-to-code
+[18:21:29] Development
+// ♥ mkdir exceptional-realty
+[18:22:02] Development
+// ♥ cd exceptional-realty
+[18:22:18] exceptional-realty
+// ♥ touch README.md
+[18:22:42] exceptional-realty
+// ♥ touch .gitignore
+[18:22:56] exceptional-realty
+// ♥ subl .
+[18:23:03] exceptional-realty
+// ♥ ls
+README.md
+[18:26:43] exceptional-realty
+// ♥ cd ..
+[18:27:03] Development
+// ♥ ls
+code			labs
+exceptional-realty	related-to-code
+[18:27:06] Development
+// ♥ cd exceptional-realty
+[18:27:14] exceptional-realty
+// ♥ ls
+README.md
+[18:27:15] exceptional-realty
+// ♥ cd README.md
+-bash: cd: README.md: Not a directory
+[18:28:19] exceptional-realty
+// ♥ cd ..
+[18:28:47] Development
+// ♥ ls
+code			labs
+exceptional-realty	related-to-code
+[18:28:50] Development
+// ♥ cd exceptional-realty
+[18:29:02] exceptional-realty
+// ♥ ls
+README.md
+[18:29:03] exceptional-realty
+// ♥ git init
+Initialized empty Git repository in /Users/stewartcory/Development/exceptional-realty/.git/
+[18:29:12] exceptional-realty
+// ♥ git status
+On branch master
+
+Initial commit
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	.gitignore
+	README.md
+
+nothing added to commit but untracked files present (use "git add" to track)
+[18:29:15] exceptional-realty
+// ♥ git add .
+[18:29:19] exceptional-realty
+// ♥ git commit -m "first commit for code along html"
+[master (root-commit) f50855e] first commit for code along html
+ 2 files changed, 47 insertions(+)
+ create mode 100644 .gitignore
+ create mode 100644 README.md
+[18:29:36] (master) exceptional-realty
+// ♥ git remote add origin https://github.com/stewartcory/exceptional-realty.git[18:31:36] (master) exceptional-realty
+// ♥ git remote
+origin
+[18:32:10] (master) exceptional-realty
+// ♥ git push -u origin master
+Username for 'https://github.com': stewartcory
+Password for 'https://stewartcory@github.com': 
+Counting objects: 4, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 669 bytes | 0 bytes/s, done.
+Total 4 (delta 0), reused 0 (delta 0)
+To https://github.com/stewartcory/exceptional-realty.git
+ * [new branch]      master -> master
+Branch master set up to track remote branch master from origin.
+[18:32:47] (master) exceptional-realty
+// ♥ git co -b main pages
+fatal: Cannot update paths and switch to branch 'main' at the same time.
+Did you intend to checkout 'pages' which can not be resolved as commit?
+[18:33:59] (master) exceptional-realty
+// ♥ git branch
+* master
+[18:34:01] (master) exceptional-realty
+// ♥ git co -b main-pages
+Switched to a new branch 'main-pages'
+[18:34:35] (main-pages) exceptional-realty
+// ♥ git branch
+* main-pages
+  master
+[18:34:47] (main-pages) exceptional-realty
+// ♥ touch index.html
+[18:35:38] (main-pages) exceptional-realty
+// ♥ touch contact.html
+[18:35:46] (main-pages) exceptional-realty
+// ♥ touch market-report.html
+[18:36:02] (main-pages) exceptional-realty
+// ♥ 
